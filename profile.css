@@ -1,0 +1,134 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 3rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    background-color: rgb(227, 223, 223);
+}
+@media screen and (max-width: 768px) {
+    .card{
+        max-width: 60%;
+        margin: auto;
+        padding: auto;
+    }
+   
+    
+    }
+
+.top-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* gap: 1rem; */
+
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.card {
+    font-size: 1.1rem;
+    width: 100%;
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.221);
+    padding: 2rem 3rem;
+    border-radius: .4rem;
+    margin-bottom: 3rem;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  .profile-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  img{
+    width: 5rem;
+    border-radius: 50%;
+  }
+
+  .profile-image-left{
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    height: 10vh;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+
+  }
+  .name-control{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+  }
+  .user-name{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 98%;
+    
+
+
+  }
+  .top-names{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+  }
+  .fname{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .button-control{
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    width: 100%;
+
+  }
+  .cancel-button{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+  }
+  
+  button{
+    width: 10rem;
+    padding: 1.2rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    margin: none;
+
+  }
+  input{
+    background-color: rgb(218, 233, 243);
+    /* height: 1rem; */
+    padding: .5rem;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    width: 100%;
+  }
